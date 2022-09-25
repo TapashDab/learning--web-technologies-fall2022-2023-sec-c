@@ -1,0 +1,37 @@
+<employees>
+    <employee id="1">
+        <name>john Doc</name>
+        <address>
+            <flat> </flat>
+            <house>38</house>
+            <road>3</road>
+            <area>banani</area>
+            <city>Dhaka</city>
+        </address>
+        <department>sales</department>
+        <salary>20000</salary>
+    <employee id="2">
+        <name>mark Zuckerberg</name>
+        <address>
+            <flat>A/1</flat>
+            <house>20</house>
+            <road>18</road>
+            <area>Mirpur</area>
+            <city>Dhaka</city>
+        </address>
+        <department>Account</department>
+        <salary>12000</salary>
+
+    <employee id="3">
+        <name>Ala Voski</name>
+        <address>
+            <flat> </flat>
+            <house>38</house>
+            <road>3</road>
+            <area>motijheel</area>
+            <city> </city>
+        </address>
+        <department>Human Resource</department>
+        <salary>30000</salary>
+    </employee> 
+</employees>   
