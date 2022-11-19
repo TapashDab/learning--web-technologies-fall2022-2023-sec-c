@@ -22,19 +22,32 @@
                         ?>
                     </td>
                 </tr>
+                
                 <tr>
                     <td>
+
+                        <form
+                        action="welcome.php" method="post">
                     <h3> which section you want to take</h3> 
-                    Select section
-                       <select style="padding:2px;" name="select" id="">
-                           <option value="1">A</option><br>
-                           <option value="2">B</option><br>
-                           <option value="3">C</option><br>
-                           <option value="4">D</option>
-                       </select>
-                       <from>
-                        <input type="submit">
-                       </from>
+                    
+                  
+                           <label for="Subject">Subject:</label>
+                            <select id="Subject" name="subject">
+                               <option value="COMPUTER ORGANIZATION AND ARCHITECTURE">COMPUTER ORGANIZATION AND ARCHITECTURE</option>
+                               <option value="COMPUTER NETWORKS">COMPUTER NETWORKS</option>
+                               <option value="SOFTWARE REQUIREMENT ENGINEERING">SOFTWARE REQUIREMENT ENGINEERING</option>
+                               <option value="WEB TECHNOLOGIES">WEB TECHNOLOGIES</option>
+                            </select>
+                           
+                            <label for="section">Section:</label>
+                            <select id="section" name="section">
+                               <option value="A">A</option>
+                               <option value="B">B</option>
+                               <option value="C">C</option>
+                               <option value="D">D</option>
+                    <input type="submit">
+                    </form>
+                       
 
                         
                     </td>
