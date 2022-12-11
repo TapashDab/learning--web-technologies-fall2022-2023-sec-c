@@ -1,0 +1,45 @@
+<?php
+use Phppot\Member;
+
+if (! empty($_POST["login-btn"])) {
+    require_once __DIR__ . '/Model/Member.php';
+    $member = new Member();
+    $loginResult = $member->loginMember();
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<body>
+    <div>
+        <form action="checklogin.php" method="">
+            <fieldset>
+                <legend>LOGIN</legend>
+                <table>
+                  <form action="/action_page.php">
+                     <label for="fname">User Id</label><br>
+                      <input type="text" id="fname" name="fname"><br>
+                      <label for="fname">password:</label><br>
+                      <input type="text" id="fname" name="fname"><br>
+ 
+                  </form>
+                    <tr>
+                        <td><input type="checkbox">RememberMe</td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input type="submit" name="submit" value="Login"></td>
+                        <p><a href="Ragester.html">Ragister</a></p>
+                    </tr>
+
+                 </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
