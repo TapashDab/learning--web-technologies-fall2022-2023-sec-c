@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background-image:url(login.jpg);
+    background-repeat: no-repeat;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    padding-top: 150px;
+    padding-left: 600px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;  
+}
+.signup_form{
+    width:100%;
+    background-image:url(login.jpg);
+    background-repeat: no-repeat;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.background{ 
+    position: relative;
+    bottom: 140px;
+   
+    padding-left: 400px;
+    width: 800px;
+    color:white;
+    min-height:109vh;
+}
+.signup_here{
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    background-color:#F9564F;
+    border-radius: 10px;
+    border: 1px solid #ff7200;
+    color: white;
+    font-weight: bold;
+    
+}
+.area{
+    padding-left: 20px;
+    border: 5px solid #ff7200;
+    border-radius:15px;
+    position: relative;
+    
+}
+.area tr{
+    
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.area tr td .link
+{
+    color: white;
+}
+.area tr td a
+{
+    text-decoration: none;
+}
+.area tr td a:hover
+{
+    color: #06ff4c;
+}
+.area tr input{
+    padding: 10px 20px 0px;   
+}
+
+.signup_submit{
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20pxS;
+    font-size: 30px;
+    background-color: #F9564F;
+    border-radius: 10px;
+    border: 1px solid #ff7200;
+    color: white;
+    font-weight: bold;
+}
+.signup_submit:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color:#3d5aa1;
+    border: 1px solid #3d5aa1;
+    color: white;
+}
+.btn1 {
+    border: 1px solid white;
+    padding: 10px;
+    width: 300;
+    margin-bottom: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    /* margin-left: 20px; */
+    background-color: blue;
+    border: 1px solid lightblue;
+    color: white;
+}
+.input{
+    background:transparent;
+    border-bottom: 3px solid #3d5aa1;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 300px;
+    line-height: 40px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.role{
+    width: 400px;
+    font-size: 30px;
+    color: white;
+}
+.role .select{
+    width: 210px;
+    padding-right: 50px;
+    padding-left: 30px;
+
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.submit{
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: #2bb954;
+    padding-left: 45px;
+    padding-right: 50px;
+    
+    border: 1px solid #2bb954;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    
+}
+.submit:hover{
+    background-color: white;
+    color:  #2bb954;
+    border: 1px solid white;
+
+}
+.h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.h3 a{
+    text-decoration: none;
+    color:#fdd90a;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.h3 a:hover{
+    font-size:30px ;
+    color: #ff7200;
+}
+.forgatePassword{
+    text-decoration: none;
+    margin-left: 80px;
+    color:#06ff4c;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.forgatePassword:hover{
+    color: #F9564F;
+}
+.student h1{
+    display:inline;
+    padding-left:700px;
+    padding-right:300px;
+    color:white;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.student a{
+    
+    font-size: 30px;
+    padding: 5px 20px  5px 20px;
+    border:2px #F9564F solid;
+    border-radius:4px;
+    background-color:#F9564F;
+    text-decoration:none;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+.student a:hover{
+    background-color: #5576ca;
+    color: white;
+    border: 1px solid #5576ca;
+}
+.student{
+    background-color:#3d5aa1;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.student_menu{
+   width: 290px;
+   height: 109vh;
+   background-color: #053c5a;
+}
+.faculty_menu{
+    width: 290px;
+   height: 109vh;
+   background-color:  #03592d
+}
+.menu_middle {
+    width: 100%;
+    height: 109vh;
+    background-color: #49f1ef; 
+    position: relative;
+    /* margin-top: 62px;  */
+    margin-left: 290px;
+    bottom: 724px;
+}
+
+.menu_middle form{
+    width: 800px;
+    height: 109vh;
+    margin-left: 200px;
+    position: relative;
+    top:20px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.menu_middle .takeCourse{
+    width: 700px;
+    height: 109vh;
+    margin-left: 300px;
+    position: relative;
+    top:200px;
+    /* left: 150px; */
+    font-size: 30px;
+    color: white;
+    
+}
+.takeSectiointable tr td {
+    padding: 10px;
+}
+.menu_middle form .s{
+    background-color: #ff7200;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #ff7200;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.student_menu button{
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    border:2px #3c9b57 solid;
+    border-radius:4px;
+    position: relative;
+   margin: 0px;
+    background-color:#00917C;
+    margin-top: 10px;
+    
+    
+}
+.student_menu button:hover{
+    background-color: #3d5aa1;
+    color: rgb(78, 5, 66);
+    
+
+}
+.student_menu button a{
+    width: 80px;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+.student_menu button a:hover{
+    width: 80px;
+    height: 40px;
+    float: left;
+    font-size: 23px;
+    text-decoration:none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+   
+}
+
+
+    .menu_middle .check_info {
+        width: 500px;
+        height: 75vh;
+        margin-left: 100px;
+        position: relative;
+        left: 150px;
+        font-size: 30px;
+        color: black;
+        background-color: rgb(224, 199, 199);
+        font-weight: bold;
+    }
+    
+   
+    .check_info h3{
+        text-align: center;
+        font-family: Arial;
+
+    }
+    .check_info button{
+        text-align: center;
+        font-family: Arial;
+        background-color: #2bb954;
+        float: left;
+        padding: 10px 50px 10px 50px;
+        border:2px #3c9b57 solid;
+        border-radius:4px;
+        position: relative;
+        left: 200px;
+       
+        background-color:#00917C;
+    }
+    .check_info button a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    .student_edit h3{
+        text-align: center;
+        font-family: Arial;
+        
+
+
+    }
+    
+
+ .student_edit{
+    width: 700px;
+    height: 109vh;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    padding-left: 100px;
+    
+}
+.menu_middle .takeSection{
+    width: 700px;
+    height: 109vh;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    
+}
+.signup_form .signup_select{
+    border: 10px solid red;
+}
+.menu_middle .profilepic{
+    width: 200px;
+    padding: 50px;
+    height: 200px;
+    padding-left: 400px;   
+}
+ .menu_middle .profilepic .welcome_name{
+    color: white;
+    font-size: 30px;
+}
+.selectRule{
+    width: 500px;
+    height: 500px;
+    background: red;
+    color: red;
+}
+
+.paymentForm form h3{
+
+    color: white;
+    font-family: Arial;
+    
+    font-weight:bold ;
+ 
+ 
+ }
+ .searchbar{
+    font-size: 30px;
+    color: black;
+ }
+ .searchsubmit{
+    font-size: 30px;
+    background-color: #F9564F;
+    border: 1px solid #F9564F;
+    color: white;
+ }
+ .searchsubmit:hover{
+    background-color: #2bb954;
+    color: black;
+ }
+ .home h1{
+    margin-left: 400px;
+    text-decoration: underline;
+    font-size: 50px;
+    color:#F9564F;
+    font-family: Arial;
+
+ }
+ .home button{
+    background-color:#3d5aa1;
+    border: 1px solid #3d5aa1;
+    padding: 10px 40px 10px 40px;
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius:10px;
+    align-items: center;
+    
+    
+ }
+ .home button:hover{
+    background-color: #2bb954;
+ }
+ .home button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display:inline;
+ }
+ 
